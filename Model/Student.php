@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-class User
+class Student
 {
     private $name;
 
