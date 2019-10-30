@@ -19,7 +19,7 @@ class Class_room {
         return $this->classId;
     }
 
-    public function getClassName  () {
+    public function getClassName  () : string  {
         return $this->className;
     }
 
