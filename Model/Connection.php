@@ -8,9 +8,9 @@ class Connection
     {
         // Try to figure out what these should be for you
         $dbhost = "localhost";
-        $dbuser = "alaa";
-        $dbpass = "100200300asAS"; // Password
-        $db = "BECODE"; // DataBase name
+        $dbuser = "dataGrip2";
+        $dbpass = "wachtoord"; // Password
+        $db = "crud"; // DataBase name
         // Try to understand what happens here
         $pdo = new PDO('mysql:host=' . $dbhost . ';dbname=' . $db, $dbuser, $dbpass);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
