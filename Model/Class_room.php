@@ -19,6 +19,12 @@ class Class_room {
         return $this->classId;
     }
 
-    public function ()
+    public function getClassName  () {
+        return $this->className;
+    }
+
+    public function getClassLocation () {
+        return $this->location;
+    }
 
 }
